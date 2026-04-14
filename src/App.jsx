@@ -4,6 +4,7 @@
 //import heroImg from './assets/hero.png'
 import './App.css'
 import Header from './components/header'
+import './components/Header.css'
 
 function App() {
   
