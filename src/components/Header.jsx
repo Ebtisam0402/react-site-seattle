@@ -1,0 +1,10 @@
+import { css } from '../components/Header.css'
+
+export default function Header(){
+    return(
+        <header>
+            <h1 className= "title">Seattle</h1>
+          
+        </header>
+    )
+}
