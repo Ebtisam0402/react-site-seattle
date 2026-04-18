@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -8,28 +9,31 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 42, 92);
-    padding: 18px 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 32px;
 }
 
 .title {
     margin: 0;
     color: white;
+    font-size: 1.8rem;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 24px;
     margin: 0;
+    padding: 0;
 }
 
 .nav-links li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
+    transition: opacity 0.2s ease;
 }
 
 .nav-links li a:hover{
     text-decoration: underline;
+    opacity: 0.85;
 }

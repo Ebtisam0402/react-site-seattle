@@ -1,0 +1,18 @@
+section {
+    padding: 40px 20px;
+    background-color: rgb(175, 183, 187);
+}
+
+section h2 {
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 2rem;
+    color: rgb(0, 42, 92);
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

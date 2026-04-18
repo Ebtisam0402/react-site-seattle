@@ -1,7 +1,7 @@
 import './Section.css'
-export default function Section({ title, children }) {
+export default function Section({ id, title, children }) {
   return (
-    <section className="section">
+    <section id={id} className="section">
       <h2>{title}</h2>
       <div className="section-content">
         {children}
